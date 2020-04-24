@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Wiki(kotlin)</string>
+    <string name="Title1">How to Relax With Yoga </string>
+    <string name="text1">Yoga is a path to health, relaxation and inner happiness. Through yoga, you cleanse your body and mind systematically, removing the build-up of tension (samskaras). Inner happiness results from this, as well as healing and ongoing health, giving you a healthy body and a positive mind.</string>
+    <string name="step1">Find the right technique.</string>
+    <string name="step2text">Yoga provides a variety of techniques. It has techniques for the body and the mind. It is important that you practice each yoga exercise so that it works well for you. If something hurts you, omit it. If it works well for you, keep doing it. You can vary all yoga exercises creatively––you must ask yourself constantly: “What do I need now? What’s good for me? What triggers my tension the most?” </string>
+    <string name="steps">Steps</string>
+    <string name="text5">Lie on your back.</string>
+    <string name="text6">Stretch your right leg. For one minute, lift your stretched right leg, with the toes pointing to your head. Keep your head resting on the ground. Meditate on the right leg.
+Next, stretch the left leg and lift it as far as possible, keeping the toes pointed to the head. Meditate for one minute on the left leg.
+Keep your arms lying relaxed at the sides during this step.</string>
+    <string name="text7">Lift up both legs in the supine position.</string>
+    <string name="text8">Keep the toes pointing to your head.
+Raise your head towards your feet. Send a light beam from the toes to the head and think the mantra "Light".
+Inhale from the stomach. Meditate for one minute in this posture.</string>
+    <string name="_1_of_3">1 of 3</string>
+    <string name="_2_of_3">2 of 3</string>
+    <string name="_3_of_3">3 of 3</string>
+
+
+</resources>
