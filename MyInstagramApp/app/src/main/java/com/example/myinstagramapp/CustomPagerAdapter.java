@@ -10,13 +10,9 @@ import java.util.List;
 
 public class CustomPagerAdapter extends FragmentPagerAdapter {
     private  List<Fragment> fragmentList;
-
-
     public CustomPagerAdapter(FragmentManager fm, List<Fragment> fragmentList){
         super(fm);
-
         this.fragmentList=fragmentList;
-
     }
 
     @NonNull

@@ -14,16 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
-
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class FragmentLike extends Fragment {
-
     private RecyclerView recyclerView;
     private LikedListAdapter adapter;
-
     private LikedListAdapter.ItemClickListener listener = null;
     private LikedListAdapter.FragmentLikeListener fragmentLikeListener = null;
 
@@ -38,7 +31,6 @@ public class FragmentLike extends Fragment {
         recyclerView = rootView.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(rootView.getContext()));
 
-
         listener = new LikedListAdapter.ItemClickListener() {
             @Override
             public void itemClick(int position, News item) {
@@ -47,7 +39,6 @@ public class FragmentLike extends Fragment {
                 startActivity(intent);
             }
         };
-
 
         fragmentLikeListener = new LikedListAdapter.FragmentLikeListener() {
             @Override
@@ -60,7 +51,6 @@ public class FragmentLike extends Fragment {
         recyclerView.setAdapter(adapter);
         return rootView;
     }
-
 
     public void saveNews(News news) {
         newsList.add(news);
@@ -76,6 +66,7 @@ public class FragmentLike extends Fragment {
             recyclerView.getAdapter().notifyItemRemoved(position);
         }
     }
+
     public void removeLike(News news){
         int n = newsList.indexOf(news);
         this.removeNews(news);

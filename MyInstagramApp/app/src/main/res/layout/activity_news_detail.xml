@@ -12,8 +12,8 @@
     <Button
         android:id="@+id/backBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="47dp"
-        android:layout_height="47dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:background="@drawable/back"
         android:paddingLeft="11dp"
         android:paddingTop="11dp"
@@ -53,7 +53,7 @@
                 android:layout_margin="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/log" />
+                tools:src="@drawable/loh" />
 
             <ImageView
                 android:id="@+id/image"
@@ -64,7 +64,7 @@
                 android:scaleType="fitCenter"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/logo"
-                tools:src="@drawable/im" />
+                tools:src="@drawable/photo1" />
 
             <ImageButton
                 android:id="@+id/menu"
@@ -98,8 +98,6 @@
                 android:id="@+id/likeBtn"
                 android:layout_width="23dp"
                 android:layout_height="23dp"
-
-
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:adjustViewBounds="true"
@@ -128,7 +126,6 @@
                 android:id="@+id/share"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
                 android:adjustViewBounds="true"
@@ -143,8 +140,6 @@
                 android:id="@+id/data"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="1dp"
                 android:singleLine="false"
@@ -161,7 +156,6 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="8dp"
                 android:maxLines="1"
-
                 android:text="Нравится: "
                 android:textColor="#27272E"
                 android:textSize="14sp"
@@ -176,8 +170,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginStart="10dp"
-
-
                 android:paddingLeft="8dp"
                 android:text="comments"
                 android:textSize="14sp"
@@ -188,7 +180,6 @@
                 android:id="@+id/author"
                 android:layout_width="118dp"
                 android:layout_height="24dp"
-
                 android:layout_margin="10dp"
                 android:layout_marginStart="11dp"
                 android:text="author"
@@ -205,16 +196,12 @@
                 android:layout_margin="10dp"
                 android:layout_marginStart="10dp"
                 android:maxLines="1"
-
                 android:paddingBottom="11dp"
-                android:text="1 час назад "
-
+                android:text="10 час назад "
                 android:textColor="#27272E"
                 android:textSize="10sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/comments" />
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

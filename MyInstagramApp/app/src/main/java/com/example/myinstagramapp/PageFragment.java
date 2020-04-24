@@ -135,13 +135,10 @@ public class PageFragment extends Fragment {
                 "So far, there are four heroes who can add extra bonus to your gathering marches: " +
                 "Ghost for gas, Rusty for metal, Mike for food and Chef for wood!");
 
-
         logo.add(R.drawable.log9);
         author.add("animals.co");
         image.add(R.drawable.photo10);
         data.add("Smile \uD83D\uDE0A | Photography by @aloe_the_dalmatian");
-
-/////////////////////////////////////////////////
 
         logo.add(R.drawable.log10);
         author.add("physics");

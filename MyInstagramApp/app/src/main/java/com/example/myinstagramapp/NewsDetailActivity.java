@@ -62,22 +62,12 @@ public class NewsDetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "Like", Toast.LENGTH_SHORT).show();
-
-                if (news.getLikeBtn()==R.drawable.heart) {
-
+                if (news.getLikeBtn() == R.drawable.heart) {
                     Glide.with(likeBtn.getContext()).load(R.drawable.hearted).into(likeBtn);
-
                 } else {
                     Glide.with(likeBtn.getContext()).load(R.drawable.heart).into(likeBtn);
-
                 }
-
             }
         });
-
-
-
-
-
     }
 }

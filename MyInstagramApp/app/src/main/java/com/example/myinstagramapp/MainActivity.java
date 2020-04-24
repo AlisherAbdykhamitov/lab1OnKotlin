@@ -89,7 +89,6 @@ public class MainActivity extends AppCompatActivity implements NewsListAdapter.F
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
             }
-
             @Override
             public void onPageSelected(int position) {
                 if (prevMenuItem != null)
@@ -106,22 +105,16 @@ public class MainActivity extends AppCompatActivity implements NewsListAdapter.F
 
             }
         });
-
-
-
-
     }
 
 
     @Override
     public void myClick(News news, int option) {
-
-        if (option==1)
+        if (option == 1)
             fragment.saveNews(news);
         else
             fragment.removeNews(news);
     }
-
 
     public void removeItemLike(News news) {
         pagefragment.removeLike(news);
